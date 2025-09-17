@@ -2,6 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin.&animation=waving&type=rounded&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
 </p>
 
+
 <p align="center">
   안정적이고 확장 가능한 백엔드 서비스를 설계하고 구현하며,<br/>
   사용자 데이터의 안전성과 서비스 성능을 동시에 최적화하는 개발을 지향합니다.
