@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?animation=waving&type=rounded&color=#A67C52,#D4A373&height=120" alt="Header"/>
+  HI, there 👋
 </p>
 
 <h2 align="center">Authenticated Developer, Eunjin</h2>
