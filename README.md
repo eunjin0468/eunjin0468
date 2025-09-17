@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin.&animation=waving&type=speech&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/></p>
+  <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin.&animation=waving&type=rounded&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
+</p>
 
 <p align="center">
   안정적이고 확장 가능한 백엔드 서비스를 설계하고 구현하며,<br/>
