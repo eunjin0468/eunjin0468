@@ -1,6 +1,6 @@
 <p align="center">
   HI, there 👋<br/>
-  <strong>Authenticated Developer, Eunjin</strong>
+  **Authenticated Developer, Eunjin**
 </p>
 
 <p align="center">
