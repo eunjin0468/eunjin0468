@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api? &animation=waving&type=rounded&color=#A67C52,#D4A373&height=120"/>
+  <img src="https://capsule-render.vercel.app/api?animation=waving&type=rounded&color=#A67C52,#D4A373&height=120" alt="Header"/>
 </p>
+
+<h2 align="center">Authenticated Developer, Eunjin</h2>
 
 <p align="center">
   안정적이고 확장 가능한 IT·커머스 백엔드 서비스를 설계하고 구현하며,<br/>
