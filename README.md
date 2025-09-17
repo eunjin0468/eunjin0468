@@ -1,7 +1,8 @@
 <p align="center">
-  HI, there 👋<br/>
-  **Authenticated Developer, Eunjin**
+HI, there 👋
 </p>
+
+<h2 align="center">Authenticated Developer, Eunjin</h2>
 
 <p align="center">
   안정적이고 확장 가능한 IT·커머스 백엔드 서비스를 설계하고 구현하며,<br/>
