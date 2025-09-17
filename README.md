@@ -17,6 +17,7 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
 </p>
 
 ---
@@ -25,6 +26,13 @@
 - **AI & Big Data Cybersecurity Orchestration** – AI·빅데이터 기반 사이버 보안 오케스트레이션 및 자동 대응 기술 연구, 위협 정보 추출 성능 향상
 - **QR Code Security Enhancement** – 공유 모빌리티 QR 코드 재발급을 통한 인증 보안 강화
 - **Vulnerability Matching System** – NVD CPE 매칭률 개선, 내부 자산 데이터 전처리 및 자동화
+
+---
+
+### 💡 Learning & Focus
+- **Backend Development:** Java, Spring Boot, JPA  
+- **Database Management:** SQL 
+- **Infrastructure & Deployment:** Docker, CI/CD, AWS
 
 ---
 
