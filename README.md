@@ -22,10 +22,9 @@
 ---
 
 ### 📚 Projects & Research
-- **AI & Big Data Cybersecurity Orchestration** – AI·빅데이터 기반 사이버 보안 오케스트레이션 및 자동 대응 기술 연구, 위협 정보 추출 성능 향상
-- **QR Code Security Enhancement** – 공유 모빌리티 QR 코드 재발급을 통한 인증 보안 강화
-- **Vulnerability Matching System** – NVD CPE 매칭률 개선, 내부 자산 데이터 전처리 및 자동화
-
+- **AI & Big Data Cybersecurity Orchestration**
+- **QR Code Security Enhancement** 
+- **Vulnerability Matching System** 
 ---
 
 ### 💡 Learning & Focus
