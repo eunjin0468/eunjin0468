@@ -1,13 +1,13 @@
 <p align="center">
-  HI, there 👋
+  HI, there 👋<br/>
+  <strong>Authenticated Developer, Eunjin</strong>
 </p>
-
-<h2 align="center">Authenticated Developer, Eunjin</h2>
 
 <p align="center">
   안정적이고 확장 가능한 IT·커머스 백엔드 서비스를 설계하고 구현하며,<br/>
   사용자와 데이터를 안전하게 관리하는 동시에 성능 최적화와 서비스 신뢰성을 높이는 데 집중합니다.
 </p>
+
 ---
 
 ### 🛠 Tech Stack
