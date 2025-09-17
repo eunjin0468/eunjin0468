@@ -1,4 +1,4 @@
-<h2 align="center">Authenticated Developer, Eunjin</h2>
+<h2 align="center">🙋‍♀️ Authenticated Developer, Eunjin</h2>
 
 <p align="center">
   안정적이고 확장 가능한 백엔드 서비스를 구현하며,<br/>
