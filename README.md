@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin&animation=waving&type=speech&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
+  <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin&animation=waving&type=waving&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
 </p>
 
 <p align="center">
