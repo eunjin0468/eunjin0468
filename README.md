@@ -1,7 +1,3 @@
-<p align="center">
-HI, there 👋
-</p>
-
 <h2 align="center">Authenticated Developer, Eunjin</h2>
 
 <p align="center">
