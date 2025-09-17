@@ -1,13 +1,11 @@
 <p align="center">
-  ![header](https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin&animation=waving&type=speech&color=gradient&height=120)
+  <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin&animation=waving&type=speech&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
 </p>
-
 
 <p align="center">
-  안정적이고 확장 가능한 백엔드 서비스를 설계하고 구현하며,<br/>
-  사용자 데이터의 안전성과 서비스 성능을 동시에 최적화하는 개발을 지향합니다.
+  안정적이고 확장 가능한 IT·커머스 백엔드 서비스를 설계하고 구현하며,<br/>
+  사용자와 데이터를 안전하게 관리하는 동시에 성능 최적화와 서비스 신뢰성을 높이는 데 집중합니다.
 </p>
-
 ---
 
 ### 🛠 Tech Stack
