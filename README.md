@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin.&animation=waving&type=rounded&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/>
+  ![header](https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin&animation=waving&type=speech&color=gradient&height=120)
 </p>
 
 
