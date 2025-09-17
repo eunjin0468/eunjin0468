@@ -1,16 +1,43 @@
-## Hi there 👋
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?text=Authenticated+Developer,+Eunjin.&animation=waving&type=speech&color=gradient&height=120" alt="Authenticated Developer, Eunjin"/></p>
 
-<!--
-**eunjin0468/eunjin0468** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  안정적이고 확장 가능한 백엔드 서비스를 설계하고 구현하며,<br/>
+  사용자 데이터의 안전성과 서비스 성능을 동시에 최적화하는 개발을 지향합니다.
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+</p>
+
+---
+
+### 📚 Projects & Research
+- **AI & Big Data Cybersecurity Orchestration** – AI·빅데이터 기반 사이버 보안 오케스트레이션 및 자동 대응 기술 연구, 위협 정보 추출 성능 향상
+- **QR Code Security Enhancement** – 공유 모빌리티 QR 코드 재발급을 통한 인증 보안 강화
+- **Vulnerability Matching System** – NVD CPE 매칭률 개선, 내부 자산 데이터 전처리 및 자동화
+
+---
+
+### 🌐 Links
+<p align="center">
+  <a href="https://solved.ac/profile/eunjin0468"><img src="https://img.shields.io/badge/Solved.ac-5A2D82?style=flat-square&logo=solved.ac&logoColor=white"/></a>
+  <a href="https://dxxxwls.tistory.com/"><img src="https://img.shields.io/badge/Blog-00ACC1?style=flat-square&logo=ghost&logoColor=white"/></a>
+  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true&theme=tokyonight"/>
+</p>
