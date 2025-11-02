@@ -37,7 +37,6 @@
 ### 🌐 Links
 <p align="center">
   <a href="https://solved.ac/profile/eunjin0468"><img src="https://img.shields.io/badge/Solved.ac-5A2D82?style=flat-square&logo=solved.ac&logoColor=white"/></a>
-  <a href="https://dxxxwls.tistory.com/"><img src="https://img.shields.io/badge/Blog-00ACC1?style=flat-square&logo=ghost&logoColor=white"/></a>
   <a href="mailto:dxxxwls@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
 </p>
 
