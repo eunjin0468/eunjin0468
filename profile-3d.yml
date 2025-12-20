@@ -4,18 +4,17 @@ steps:
       fetch-depth: 0
       ref: main
 
-  - name: Sync before generation
-    run: |
-      git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
-      git pull origin main --rebase
-
   - uses: yoshi389111/github-profile-3d-contrib@0.7.0
     env:
       GITHUB_TOKEN: ${{ github.token }}
       USERNAME: ${{ github.repository_owner }}
 
-  - name: Commit & Push
+  - name: Sync after auto commit
     run: |
-      git add -A
-      git commit -m "generated" || echo "No changes"
+      git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
+      git fetch origin main
+      git rebase origin/main || true
+
+  - name: Push result
+    run: |
       git push origin HEAD:main --force-with-lease
