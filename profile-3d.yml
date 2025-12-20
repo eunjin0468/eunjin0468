@@ -29,9 +29,10 @@ jobs:
 
           git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
 
-          git pull --rebase
+          git fetch origin main
+          git rebase origin/main || git rebase --skip
 
           git add -A
           git commit -m "generated" || echo "No changes"
 
-          git push
+          git push --force-with-lease
