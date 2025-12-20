@@ -1,0 +1,20 @@
+steps:
+  - uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
+      ref: main
+
+  - uses: yoshi389111/github-profile-3d-contrib@0.7.0
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      USERNAME: ${{ github.repository_owner }}
+
+  - name: Sync after auto commit
+    run: |
+      git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
+      git fetch origin main
+      git rebase origin/main || true
+
+  - name: Push result
+    run: |
+      git push origin HEAD:main --force-with-lease
