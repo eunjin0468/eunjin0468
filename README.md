@@ -46,3 +46,7 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=eunjin0468&show_icons=true&theme=tokyonight"/>
 </p>
+
+---
+
+![](./profile-3d-contrib/profile-green-animate.svg)
