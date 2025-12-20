@@ -9,7 +9,7 @@ steps:
       git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
       git pull origin main --rebase
 
-  - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+  - uses: yoshi389111/github-profile-3d-contrib@0.7.0
     env:
       GITHUB_TOKEN: ${{ github.token }}
       USERNAME: ${{ github.repository_owner }}
