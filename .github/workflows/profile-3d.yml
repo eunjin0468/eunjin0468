@@ -1,20 +1,24 @@
-steps:
-  - uses: actions/checkout@v4
-    with:
-      fetch-depth: 0
-      ref: main
+name: GitHub-Profile-3D-Contrib
 
-  - uses: yoshi389111/github-profile-3d-contrib@0.7.0
-    env:
-      GITHUB_TOKEN: ${{ github.token }}
-      USERNAME: ${{ github.repository_owner }}
+on:
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
 
-  - name: Sync after auto commit
-    run: |
-      git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
-      git fetch origin main
-      git rebase origin/main || true
-
-  - name: Push result
-    run: |
-      git push origin HEAD:main --force-with-lease
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v2
+      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "generated"
+          git push
