@@ -1,40 +1,21 @@
-name: GitHub-Profile-3D-Contrib
+steps:
+  - uses: actions/checkout@v4
+    with:
+      fetch-depth: 0
+      ref: main
 
-on:
-  schedule:
-    - cron: "0 18 * * *"
-  workflow_dispatch:
+  - name: Sync before generation
+    run: |
+      git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
+      git pull origin main --rebase
 
-permissions:
-  contents: write
+  - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      USERNAME: ${{ github.repository_owner }}
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          ref: main              
-      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
-        with:
-          commit: false
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git remote set-url origin https://${{ github.token }}@github.com/${{ github.repository }}
-
-          git fetch origin main
-          git rebase origin/main || git rebase --skip
-
-          git add -A
-          git commit -m "generated" || echo "No changes"
-
-          git push origin HEAD:refs/heads/main --force-with-lease
+  - name: Commit & Push
+    run: |
+      git add -A
+      git commit -m "generated" || echo "No changes"
+      git push origin HEAD:main --force-with-lease
