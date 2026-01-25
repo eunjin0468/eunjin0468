@@ -29,7 +29,6 @@
 
 ### 💡 Learning & Focus
 - **Backend Development:** Java, Spring Boot, JPA  
-- **Database Management:** SQL 
 - **Infrastructure & Deployment:** Docker, CI/CD, AWS
 
 ---
