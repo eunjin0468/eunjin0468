@@ -28,8 +28,9 @@
 ---
 
 ### 💡 Learning & Focus
-- **Backend Development:** Java, Spring Boot, JPA  
-- **Infrastructure & Deployment:** Docker, CI/CD, AWS
+- **Backend Development:** Java, Spring Boot, JPA, Redis, RabbitMQ
+- **RDBMS:** MySQL, PostgreSQL
+- **Infrastructure & Deployment:** Docker, CI/CD, AWS, GCP
 
 ---
 
