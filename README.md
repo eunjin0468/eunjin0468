@@ -1,11 +1,5 @@
 <h2 align="center">🙋‍♀️ Authenticated Developer, Eunjin</h2>
 
-<p align="center">
-  안정적이고 확장 가능한 백엔드 서비스를 구현하며,<br/>
-  데이터를 안전하게 관리하고, 성능을 최적화하는 개발을 지향합니다.
-
-</p>
-
 ---
 
 ### 🛠 Tech Stack
